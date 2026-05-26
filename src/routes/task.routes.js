@@ -17,7 +17,4 @@ router.put('/:id', taskController.updateTask);
 // DELETE /api/tasks/:id - supprimer une tâche
 router.delete('/:id', taskController.deleteTask);
 
-// router pour conflit
-router.delete('/all');
-
 module.exports = router;
